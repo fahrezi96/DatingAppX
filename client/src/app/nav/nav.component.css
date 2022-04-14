@@ -7,3 +7,12 @@
 .dropdown-menu .dropdown-toggle::after {
   display: none;
 }
+
+img {
+  max-height: 50px;
+  border: 2px solid #fff;
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  border-radius: 100%;
+}
