@@ -35,7 +35,7 @@
     >
       <img [src]="user.photoUrl || './assets/user.png'" [alt]="user.username" />
       <a class="dropdown-toggle text-light ms-2" dropdownToggle>
-        Welcome {{ user.username | titlecase }}
+        Welcome {{ user.knownAs | titlecase }}
       </a>
       <div class="dropdown-menu" *dropdownMenu>
         <a routerLink="/member/edit" class="dropdown-toggle mx-3"
